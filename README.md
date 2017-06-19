@@ -1,3 +1,2 @@
-# Portafolio GutiMu
+# Portafolio GutiMu ![alt text](assets/icons/logo.png "Logo Title Text 1")
 
-![alt text](assets/icons/logo.png "Logo Title Text 1")
