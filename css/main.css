@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "bunny";
+  src: url("assets/fonts/Bunya-Regular_PERSONAL.ttf");
+  
+}
+
+.fuente-nav{
+    font-family: bunny;
+    color: #3C6E71;
+    
+}
+
+header nav a{
+    text-decoration-line: none;
+}
