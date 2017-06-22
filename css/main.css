@@ -288,7 +288,7 @@ margin-left: 300px;
 	z-index: 1000;
 	text-indent: 200%;
 	white-space: nowrap;
-	font-size: 0;
+	font-size: -10;
 	opacity: 0;
 }
 
@@ -338,6 +338,7 @@ figure.effect-zoe p.icon-links a {
 figure.effect-zoe:hover p.icon-links a:hover,
 figure.effect-zoe:hover p.icon-links a:focus {
 	color: #252d31;
+    
 }
 
 figure.effect-zoe p.description {
@@ -388,6 +389,7 @@ figure.effect-zoe h2 {
 
 figure.effect-zoe:hover p.description {
 	opacity: 1;
+    text-shadow: 1px 1px 1px white;
 }
 
 figure.effect-zoe:hover figcaption,
@@ -417,5 +419,11 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 	transition-delay: 0.2s;
 }
 
+figure.effect-zoe:hover img{
+    filter:sepia(100%);
 
+}
 
+h2{
+    font-size: 2rem
+}
