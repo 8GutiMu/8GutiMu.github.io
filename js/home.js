@@ -25,7 +25,7 @@ var moverLetras = function () {
 
 
     if (window.scrollY < 250) {
-
+ $("#nav-desktop").css("backgroundColor","#084c61")
 
         $("#u1").animate({
             top: "320px"
@@ -40,6 +40,7 @@ var moverLetras = function () {
             top: "320px"
         })
     } else  {
+         
         $("#u1").animate({
             top: "180px"
         })
