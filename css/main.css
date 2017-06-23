@@ -22,6 +22,23 @@
     font-size: 50px;
     color:#75bba7;
 }
+#skills h6{
+     font-family: bunny;
+    font-size: 25px;
+    color: #161925;
+}
+
+#skills h5{
+    font-family: bunny;
+    font-size: 40px;
+    color: #3c6e71;
+}
+
+#skills ul{
+    font-family: helvetica;
+    font-size: 14px;
+    color:#161925;
+}
 #bren{
 
     
@@ -214,9 +231,16 @@ margin-left: 300px;
     margin-bottom: 25px;
 }
 
-
-@media screen and (max-width: 42em) {
+#movil{
+    display: none
+}
+/*
+@media screen and (max-width: 700px) {
 	.link--ilin { font-size: 5em; }
+    
+    #desktop{
+        display: none;
+    }
 	
     
 }
@@ -224,6 +248,29 @@ margin-left: 300px;
 @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
+    }
+}
+*/
+@media (min-device-width : 320px) and (max-device-width : 480px){
+    #desktop{
+        display: none;
+    }
+    #movil{
+        display: block
+    }
+    .movil-bg{
+        background-color: #084c61
+    }
+    
+    #movil div div div span{
+        font-size: 50px;
+    }
+    .col .s10 .offset-s1{
+        padding-bottom: 10px
+    }
+    .texto p{
+        color: white;
+        padding: 5%
     }
 }
 
