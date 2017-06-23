@@ -55,23 +55,29 @@
 
 
 #g{
-    
+    top:50px;
+    left: 100px;
 }
 
 #u1{
-    
+    top:170px;
+    left: 250px;
 }
 #t{
-    
+    top:320px;
+    left: 400px;
 }
 #i{
-    
+    top:50px;
+    left: 550px;
 }
 #m{
-    
+    top:170px;
+    left: 700px;
 }
 #u{
-    
+    top:320px;
+    left: 850px;
 }
 .cursivaFuente{
     font-family: "curvy";
@@ -196,21 +202,32 @@ margin-left: 300px;
 
 .letras-logo{
     width: 100%;
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     vertical-align: middle;
+    position: relative;
+    margin-left: 100px;
     
     
 }
 
+.letra{
+    position: absolute;
+}
 #acercaDeMi{
 /*    height: 1000px;*/
     background-color:#161925;
-    margin-top: 28%;
+    margin-top: 18%;
     font-family: basicFont;
     color: white;
+    
 /*    text-shadow: 2px 2px 4px #084c61;*/
+}
+
+#acercaDeMi h1{
+    margin: 0
 }
 
 .fa{
