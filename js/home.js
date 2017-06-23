@@ -39,7 +39,7 @@ var moverLetras = function () {
         $("#g").animate({
             top: "320px"
         })
-    } else if (window.scrollY > 100) {
+    } else  {
         $("#u1").animate({
             top: "180px"
         })
@@ -56,6 +56,10 @@ var moverLetras = function () {
 
     }
 }
+
+
+
+
 
 $(document).ready(cargarPagina);
 $(document).scroll(moverLetras);
