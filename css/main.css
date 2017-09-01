@@ -39,6 +39,18 @@
     font-size: 14px;
     color:#161925;
 }
+
+
+.gray{
+    
+    color:gray
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: gray;
+    text-decoration-line: underline;
+}
 #bren{
 
     
